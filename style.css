@@ -1,0 +1,240 @@
+/* ヘッダー部分 */
+
+header {
+  height: 80px;
+  background-color: white;
+  padding: 10px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* .header-left img {
+  width: 150px;
+  height: auto;
+
+} */
+
+.header-left {
+  color: rgba(105, 128, 0, 0.708);
+  padding: auto;
+}
+
+.header-right ul {
+  font-size: 18px;
+  display: flex;
+  /* flex-direction: column-reverse; */
+  flex: right;
+}
+
+.header-right li {
+  margin-left: 20px;
+  /* display: flex; */
+  
+}
+
+/* KV部分 */
+.kv {
+  background-image: url('./img/michi.JPG');
+  background-position: center;
+  background-size: cover;
+  /* height: 100vh; */
+  /*固定する背景*/
+  box-sizing: border-box;
+  color: #FFF;
+  font-size: 5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* height: 100%; */
+  padding: 5%;
+
+}
+.parallax-bg {
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  /* height: 50%; */
+  width: 35%;
+  aspect-ratio: 4/3;
+  height: auto;
+
+  /* @keyframes slider {
+    0% {
+      transform: translateX(0);
+    }
+  
+    33% {
+      transform: translateX(-300px);
+    }
+  
+    66% {
+      transform: translateX(-600px);
+    }
+  
+    100% {
+      transform: translateX(0);
+    }
+  
+    background-image: url('./img/michi.JPG');
+    background-image: url('./img/IMG_3776.jpg');
+    background-image: url('./img/nozo\ 7897.jpg');
+    background-image: url('./img/IMG_9040.jpg');
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+  } */
+}
+
+/*各背景の画像*/
+
+.img-bg-01 {
+  background-image: url('./img/IMG_3776.jpg');
+  /* background-image: url('https://dl.dropbox.com/s/lb7lg14z7kszlkj/2016-10-26%2021%2039%2022.jpg?dl=0'); */
+  width: 100%;
+  aspect-ratio: 4/3;
+  height: auto;
+}
+.img-bg-02 {
+  background-image: url('./img/IMG_8431.jpg');
+
+  width: 100%;
+  aspect-ratio: 4/3;
+  height: auto;
+}
+
+.img-bg-03 {
+  background-image: url('./img/IMG_9040.jpg');
+  width: 100%;
+  aspect-ratio: 4/3;
+  height: auto;
+}
+
+/* .img-bg-01 {
+    background-image: url('');
+  } */
+/* }
+.img-bg-05 {
+  background-image: url('');
+} */
+
+/*スクロールするコンテンツ*/
+.scrollbox1 {
+  background-color: #000000;
+}
+
+/* #000000透明 */
+.scrollbox2 {
+  background-color: #000000;
+}
+
+.scrollbox3 {
+  background-color: #000000;
+}
+
+/* .scrollbox {
+  background-color: #;
+} */
+
+.title-wrap {
+  /* height: 100vh; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #000000;
+  /* background: #fff;
+  color: #000;
+  -webkit-text-stroke: 1px #FFF; */
+  /* text-stroke: 1px #FFF; */
+}
+
+.main-title {
+  font-size: 48px;
+  font-weight: bold;
+  /* color: white; */
+  color: #000;
+  -webkit-text-stroke: 1px #FFF;
+  /* text-stroke: 1px #FFF; */
+  width: 20%;
+  aspect-ratio: 4/3;
+  height: auto;
+}
+
+.subtitle {
+  font-size: 30px;
+  font-weight: bold;
+  color: white;
+}
+
+/* セクション１ */
+.contents {
+  max-width: 1200px;
+  margin: 100px auto 0;
+  padding: 30px;
+
+}
+
+.subject {
+  font-size: 40px;
+  font-weight: bold;
+  color: orange;
+  text-align: center;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 50px;
+
+}
+
+/* #javascript .container {
+  flex-direction: row-reverse;
+} */
+
+.description {
+  /* margin-left: 50px; */
+  display: flex;
+  justify-content: center;
+}
+
+/* #javascript .description {
+  margin-left: auto;
+  margin-right: 50px;
+} */
+
+footer {
+  background-color: rgba(5, 130, 186);
+  padding: 10px 20px;
+  text-align: center;
+  margin-top: 100px;
+}
+
+footer span {
+  font-weight: bold;
+}
+
+/* スマホ */
+/* @media screen and (max-width: 428px){ */
+/* ここにスマホ用のcssを記述する。 */
+/* }  */
+/* タブレット */
+/* @media screen and (min-width: 600px) and (max-width :1024px){ */
+/* ここにタブレット用のcssを記述する。 */
+/* } */
+/* パソコン */
+/* @media screen and (min-width:1024px){ */
+/* ここにPC用のcssを記述する。 */
+/* }  */
+@media screen and (min-width:900px) {
+  .SP_Flex_container {
+    display: flex;
+    justify-content: space-around;
+  }
+  .SP_Flex_container a {
+    width: 100%;
+  }
+}
